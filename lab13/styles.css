@@ -1,3 +1,17 @@
+
+.skip {
+      background-color: #387579;
+      color: #ffffff;
+      padding: 8px;
+      text-decoration: none;
+      border: 2px solid #ffa500;
+      position: absolute;
+      top: 10px;
+      left: -999px; /* push off left side of browser */
+  }
+.skip:focus {
+      left: 10px;
+  }
 body {background-color: #add8e6;
       color: #000000;
 }
@@ -30,16 +44,3 @@ div p {
       }
       span {display: none;}
 }
-.skip {
-      background-color: #333333;
-      color: #ffffff;
-      padding: 8px;
-      text-decoration: none;
-      border: 2px solid #ffa500;
-      position: absolute;
-      top: 10px;
-      left: -999px; /* push off left side of browser */
-  }
-  .skip:focus {
-      left: 10px;
-  }
