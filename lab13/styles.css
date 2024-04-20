@@ -1,6 +1,6 @@
 
 .skip {
-      background-color: #42a2b7;
+      background-color: #333333;
       color: #ffffff;
       padding: 8px;
       text-decoration: none;
@@ -22,7 +22,7 @@ nav {background-color: #add8e6;
      margin-bottom: 30px;
 }
 nav a {color: #ff3ea5;}
-nav a:hover {background-color: #00008b;}
+nav a:hover {background-color: #2991b0;}
 .copyright {float: left;}
 .quote {margin-left: 900px;}
 div {
