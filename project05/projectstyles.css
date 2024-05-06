@@ -1,0 +1,42 @@
+body {background-color: #35dede;
+      color: #000000;
+      font-family: "Dekko", cursive;
+}
+div {display: flex;
+     flex: left;
+}
+a img {width: 30px;
+   height: 30px;
+}
+nav {padding: 10px;
+    margin-bottom: 30px;
+}
+nav a {color: #ff3ea5;}
+nav a:hover {background-color: #e1afd1;}
+div div {display: flex;
+    flex: left;
+}
+img {width: 200px;
+    height: 200px;
+    padding-right: 20px;
+}
+.banner {max-width: 100%;}
+.smallbanner {max-width: 100%;}
+#hamicon {display: none;}
+#hamicon {width:40px;}
+#close {display: none;}
+@media only screen and (max-width: 800px) {
+    .banner {display: none;}
+}
+@media only screen and (min-width: 801px) {
+    .smallbanner{display: none;}
+    #hamicon {display: block;}
+    #close {display: block;}
+    a {border: 1px solid black;
+        display: block;}
+    #navlinks {display: none;}
+    .row {display: flex; justify-content: space-between;}
+}
+.skip {
+    color:#4c4cff;
+}
