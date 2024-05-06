@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <img src="../images/anna_website_banner.png" alt="Website Banner">
+    <link rel="stylesheet" href="projectstyles.css">
+    <script src="projectjavascript.js"></script>
+    <link rel="short icon" type="image/x-icon" href="../projectwebsiteimages/favicon.ico">
+</head>
+<body>
+    <div class="row">
+        <img id="hamicon" onclick="showNav();" src="https://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon">
+        <p onclick="hideNav();" id="close">X</p>
+    </div>
+    <nav id="navlinks">
+        <a href="index.html">Home</a> |
+        <a href="about.html">About the Artist</a> |
+        <a href="photos.html">My Gallery</a>
+    </nav>
+    <div>
+        <div>
+            <img src="../images/photo_of_myself.jpg">
+            <!-- image tag is for the photo of the month and the paragraph for the description/story of/behind the photo -->
+            <img src="../projectwebsiteimages/photo_of_the_month_picture.pdf" alt="Photo of the month">
+            <p>This month's photo was taken [insert explaination here]. I took this photo because [insert explaination here], along with simply capturing what I see inthe world around me. These photos that I have taken are meant to show people how I see in the world, as well as the want to showcase its beauty. To see more photos, including this one, please click on the links <a href="#skip" class="skip">here</a> to explore more of my work!!</p>
+        </div>
+    </div>
+    <!-- general gallery of the other photos I have taken over the years since I got my camera -->
+    <h2>View My Images:</h2>
+    <nav id="skip">
+        <a href="2020.html">2020</a>
+        <a href="2021.html">2021</a>
+        <a href="2022.html">2022</a>
+        <a href="2023.html">2023</a>
+        <a href="2024.html">2024</a>
+    </nav>
+    <div>
+        <a href="https://www.instagram.com/annaleo_photography"><img src="../images/instagram_logo.png" alt="Instagram Logo"></a>
+    </div>
+</body>
+</html>
